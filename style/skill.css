@@ -1,0 +1,78 @@
+/* style/skill.css */
+
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Navigasi */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Bagian skill */
+#skill {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Kotak skill */
+#skill-box {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  border: solid;
+}
+
+/* Judul */
+#skill-box h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Paragraf */
+#skill-box p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Daftar skill */
+#skill-box ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+#skill-box li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer p {
+  margin: 0;
+}
