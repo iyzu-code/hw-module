@@ -1,25 +1,3 @@
-/* Reset dasar */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-/* Navigasi */
-nav {
-  background-color: #333;
-  padding: 10px 0;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-}
-
-/* Bagian profil */
 .profile {
   padding: 40px 20px;
   text-align: center;
@@ -34,7 +12,6 @@ nav a {
   margin-bottom: 20px;
 }
 
-/* Informasi profil */
 .profile-info dl {
   padding: 20px;
   border-radius: 6px;
@@ -49,19 +26,4 @@ nav a {
 .profile-info dd {
   margin: 5px 0 10px 0;
   line-height: 1.5;
-}
-
-/* Footer */
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 5px 0;
-}
-
-footer p {
-  margin: 0;
 }

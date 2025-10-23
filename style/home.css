@@ -1,27 +1,7 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  text-align: center;
-}
-
-/* Navigasi */
-nav {
-  background-color: #333;
-  padding: 10px 0;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-}
-
 main {
   padding: 40px 20px;
 }
 
-/* Gambar profil */
 .home-image img {
   width: 400px;
   height: 400px;
@@ -30,33 +10,17 @@ main {
   margin-top: 50px;
 }
 
-/* Judul */
 .home-title h1 {
   font-size: 24px;
   margin: 20px 0 5px;
 }
 
 .home-title h1 span {
-  color: #0077ff; /* Warna teks nama */
+  color: #0077ff;
 }
 
 .home-title h2 {
   font-size: 18px;
   color: #555;
-  margin: 0;
-}
-
-/* Footer */
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 5px 0;
-}
-
-footer p {
   margin: 0;
 }
