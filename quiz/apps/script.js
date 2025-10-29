@@ -51,6 +51,7 @@ function mulaiTimer() {
 }
 
 function tampilkanPertanyaan() {
+  document.querySelector('h3').style.display = "none";
   const quiz = document.getElementById("quiz");
   quiz.innerHTML = "";
 
@@ -121,6 +122,7 @@ function periksaJawaban() {
   });
 
   document.getElementById("quiz").style.display = "none";
+  document.querySelector('h3').style.display = "none";
   document.getElementById("result").classList.add("active");
   document.getElementById("score").textContent = skor;
 
