@@ -8,7 +8,7 @@ const pertanyaan = [
 
 const modePesan = {
   freeze: {title:"TIME STOP", text:"waktu akan berhenti", img:"sources/time-stop.gif"},
-  god: {title:"GOD EYE", text:"kamu bisa melihat jawabanyang benar", img:"sources/god-eye.gif"},
+  god: {title:"GOD EYE", text:"kamu bisa melihat jawaban yang benar", img:"sources/god-eye.gif"},
   dead: {title:"LAST HOPE", text:"satu salah selesai melangkah", img:"sources/last-hope.gif"},
   party: {title:"PARTY", text:"susah saatnya horeg", img:"sources/party.gif"},
   normal: {title:"NORMAL", text:"biasa aja", img:"sources/normal.gif"},
